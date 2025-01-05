@@ -1,6 +1,0 @@
-services:
-  servicepetshop.api:
-    image: ${DOCKER_REGISTRY-}servicepetshopapi
-    build:
-      context: .
-      dockerfile: ServicePetShop.Api/Dockerfile
